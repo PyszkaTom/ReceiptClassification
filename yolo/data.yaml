@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bottom', 'logo', 'products', 'top', 'total']
+
+roboflow:
+  workspace: tomasz-pyszka-i95pe
+  project: receipts-er6ly
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tomasz-pyszka-i95pe/receipts-er6ly/dataset/2
